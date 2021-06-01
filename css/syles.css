@@ -2,23 +2,20 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  
-/*   background: rgb(102, 10, 121); */
-background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgb(150 0 211) ),   url(../images/fondov.png) ;
-background-position: right bottom, left top;
-background-repeat: no-repeat, repeat;
 
+  /*   background: rgb(102, 10, 121); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(150 0 211)),
+    url(../images/fondov.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
 }
 
-
-
-
-h2{
-  color:#550f84;
+h2 {
+  color: #550f84;
   margin-top: 5rem;
 }
 
-.mascara{
+.mascara {
   background: url("../images/fondo.png") no-repeat center center;
   background-size: cover;
 }
@@ -28,7 +25,6 @@ h2{
 }
 .contenedor-principal {
   padding: 5% 18% 0% 16%;
-
 }
 .contenedor-principal3 {
   padding: 5% 18% 0% 16%;
@@ -133,7 +129,7 @@ h2{
   height: 0;
 }
 
-.contenedor-videoPrincipal{
+.contenedor-videoPrincipal {
   position: absolute;
   right: 25%;
   bottom: 11%;
@@ -182,7 +178,6 @@ a.raven-button {
   width: 50%;
   font-weight: 700;
   height: 2rem;
-  
 }
 /* Boton www.dilisolver.com */
 .button,
@@ -259,7 +254,8 @@ a.button {
 }
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover,
+.dropbtn:focus {
   background-color: #ffffff00;
 }
 
@@ -271,7 +267,6 @@ a.button {
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-
   display: none;
   position: absolute;
   background-color: white;
@@ -279,7 +274,6 @@ a.button {
   z-index: 99999999 !important;
   box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
   z-index: 1;
-
 }
 
 /* Links inside the dropdown */
@@ -291,11 +285,14 @@ a.button {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #5ae03f}
+.dropdown-content a:hover {
+  background-color: #5ae03f;
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
+.show {
+  display: block;
+}
 
 .education {
   --bg-color: #550f84;
@@ -304,18 +301,12 @@ a.button {
   --box-shadow-color: rgba(19, 17, 13, 0.48);
 }
 
-
-
-.cards
-{
-
+.cards {
   display: flex;
   justify-content: left;
   align-items: center;
   flex-wrap: wrap;
-  
 }
-
 
 .cardn {
   width: 327px;
@@ -337,7 +328,7 @@ a.button {
 
 .cardn:hover {
   transform: translateY(-5px) scale(1.005) translateZ(0);
-  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
     0 24px 46px var(--box-shadow-color);
 }
 
@@ -354,37 +345,33 @@ a.button {
   background: var(--bg-color-light);
 }
 
-.cardn:hover  p  {
+.cardn:hover p {
   color: var(--text-color-hover);
 }
 
 .cardn:active {
   transform: scale(1) translateZ(0);
-  box-shadow: 0 15px 24px rgba(0,0,0,0.11),
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
     0 15px 24px var(--box-shadow-color);
 }
 
 a:hover {
   color: white !important;
 }
-a{
+a {
   color: #535965 !important;
 }
 
 .cardn p {
   font-size: 13px;
-  color: #4C5656;
+  color: #4c5656;
   margin-top: 30px;
   z-index: 1000;
   transition: color 0.3s ease-out;
-
 }
 
-
-
-
 .overlay {
-  position: absolute; 
+  position: absolute;
   background: var(--bg-color);
   top: 70px;
   left: 50px;
@@ -392,10 +379,8 @@ a{
   transition: transform 0.3s ease-out;
 }
 
-
 .raven-button2,
 a.raven-button2 {
-
   display: inline-block;
   padding: 8px 0;
   -webkit-transition: all 0.5s;
@@ -413,13 +398,13 @@ a.raven-button2 {
   margin: 1rem 0;
 }
 
-.texto-descarga{
+.texto-descarga {
   text-align: initial;
   color: #616060;
   font-weight: 700;
 }
 
-.contenedor-cards{
+.contenedor-cards {
   display: contents;
 }
 
@@ -428,7 +413,7 @@ a.raven-button2 {
   color: #550f84 !important;
   background-color: currentColor;
   border: 0;
-   opacity: 1; 
+  opacity: 1;
 }
 
 .imagen_footer2 {
@@ -436,3 +421,63 @@ a.raven-button2 {
   margin: 1rem 4% 10% 1px;
 }
 
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .contenedor-videoPrincipal {
+    position: absolute;
+    right: 18%;
+    bottom: -12%;
+  }
+
+  .contenedor-imagen {
+    width: 23%;
+  }
+
+  .raven-button, a.raven-button {
+    display: inline-block;
+    padding: 9px 24px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    border-radius: 7px;
+    background-color: #5ae03f;
+    color: #550f84 !important;
+    line-height: 1;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    width: 90%;
+    font-weight: 700;
+    height: 2rem;
+}
+
+.raven-button2, a.raven-button2 {
+  display: inline-block;
+  padding: 8px 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 12px;
+  background-color: #5ae03f;
+  color: #550f84 !important;
+  line-height: 1;
+  text-align: center;
+  font-size: 13px;
+  text-decoration: none;
+  width: 120%;
+  font-weight: 900;
+  height: 2rem;
+  margin: 1rem 0;
+}
+
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
