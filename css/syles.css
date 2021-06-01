@@ -421,8 +421,11 @@ a.raven-button2 {
   margin: 1rem 4% 10% 1px;
 }
 
-/*  Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
   .contenedor-videoPrincipal {
     position: absolute;
     right: 18%;
@@ -432,6 +435,10 @@ a.raven-button2 {
   .contenedor-imagen {
     width: 23%;
   }
+
+  .contenedor-imagen2 {
+    width: 60%;
+}
 
   .raven-button, a.raven-button {
     display: inline-block;
@@ -468,16 +475,18 @@ a.raven-button2 {
   margin: 1rem 0;
 }
 
-}
+ }
 
-/*  Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
 
-/*  Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+
