@@ -488,7 +488,94 @@ a.raven-button2 {
 @media only screen and (min-width: 768px) {...}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {
+
+  .raven-button, a.raven-button {
+    display: inline-block;
+    padding: 9px 24px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    border-radius: 7px;
+    background-color: #5ae03f;
+    color: #550f84 !important;
+    line-height: 1;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    width: 95%;
+    font-weight: 700;
+    height: 2rem;
+}
+
+.contenedor-imagen {
+  width: 25%;
+}
+
+.inputs {
+  /* text-align: center; */
+  margin-top: 1rem;
+}
+
+.raven-button2, a.raven-button2 {
+  display: inline-block;
+  padding: 8px 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 12px;
+  background-color: #5ae03f;
+  color: #550f84 !important;
+  line-height: 1;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  width: 110%;
+  font-weight: 900;
+  height: 2rem;
+  margin: 1rem 0;
+}
+
+.contenedor-imagen2 {
+  width: 60%;
+}
+
+.cardn {
+  width: 302px;
+  height: 138px;
+  margin: 10px;
+  padding: 10px;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 14px 26px rgb(50 33 56 / 50%);
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  border-radius: 0.7rem !important;
+}
+
+.cardn p {
+  font-size: 11px;
+  color: #4c5656;
+  margin-top: 30px;
+  z-index: 1000;
+  transition: color 0.3s ease-out;
+}
+.iframe-container {
+  position: absolute;
+  width: 43%;
+  /* padding-bottom: 54.25%; */
+  height: 70%;
+  top: 55%;
+  right: 15%;
+}
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {
+
+
+}
